@@ -116,7 +116,7 @@ Repositori ini berisi *source code* implementasi **Sistem Pendukung Keputusan (S
 
 
 2. **Logika Native KNN:**
-* **Hitung Jarak:** Menggunakan rumus \sqrt{\sum w_i (x_i - y_i)^2}.
+* **Hitung Jarak:** Menggunakan rumus $\sqrt{\sum w_i (x_i - y_i)^2}$.
 * **Sorting:** Mengurutkan data latih dari jarak terdekat (*ascending*).
 * **Slicing:** Mengambil **K=11** tetangga teratas.
 * **Voting:** Menentukan status "Layak/Tidak" berdasarkan suara terbanyak.
