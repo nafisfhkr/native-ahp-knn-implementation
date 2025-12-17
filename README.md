@@ -50,7 +50,7 @@ This repository contains the source code for a **Creditworthiness Decision Suppo
 
 
 2. **Native KNN Workflow:**
-* Calculate distance using formula: \sqrt{\sum w_i (x_i - y_i)^2}
+* Calculate distance using formula: $\sqrt{\sum w_i (x_i - y_i)^2}$.
 * Sort training data by distance (ascending).
 * Slice top **K=11** neighbors.
 * Vote for the majority class ("Eligible" vs "Not Eligible").
